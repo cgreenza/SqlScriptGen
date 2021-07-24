@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scriptOptions sqlVersion="SQL2008" server=".\sql2005" database="testdb" user="" password="">
+
+<!-- 
+  <scriptTables outputFile="all.sql" />
+  
+  <scriptTables outputFile="create-ND.sql">
+    <include match="." />
+    <exclude match="Defect" />
+  </scriptTables>
+  
+  <scriptTriggers outputFile="triggers.sql" />
+
+  <scriptProcs outputFile="procs.sql" />
+
+  <scriptViews outputFile="views.sql" />
+
+  <scriptUDFs outputFile="udf.sql" />
+-->
+  
+  <scriptValues outputFile="insert.sql">
+    <table name="Building" top="3" />
+    <table name="AnswerType" />
+  </scriptValues>
+
+  <scriptUserDefinedTypes outputFile="udt.sql" />
+  
+</scriptOptions>
